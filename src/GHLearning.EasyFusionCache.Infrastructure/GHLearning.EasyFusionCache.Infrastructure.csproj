@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="CorrelationId" Version="3.0.1" />
+		<PackageReference Include="MassTransit.RabbitMQ" Version="8.5.2" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.9" />
+		<PackageReference Include="Microsoft.Extensions.Options" Version="9.0.9" />
+		<PackageReference Include="MongoDB.Driver" Version="3.5.0" />
+		<PackageReference Include="SequentialGuid" Version="4.0.6" />
+		<PackageReference Include="System.Linq.Async" Version="6.0.3" />
+		<PackageReference Include="ZiggyCreatures.FusionCache" Version="2.4.0" />
+		<PackageReference Include="ZiggyCreatures.FusionCache.Backplane.StackExchangeRedis" Version="2.4.0" />
+		<PackageReference Include="ZiggyCreatures.FusionCache.Serialization.SystemTextJson" Version="2.4.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\GHLearning.EasyFusionCache.Domain\GHLearning.EasyFusionCache.Domain.csproj" />
+	</ItemGroup>
+
+</Project>
