@@ -8,7 +8,7 @@
 
 	<ItemGroup>
 		<PackageReference Include="CorrelationId" Version="3.0.1" />
-		<PackageReference Include="MassTransit.RabbitMQ" Version="8.5.2" />
+		<PackageReference Include="MassTransit.RabbitMQ" Version="8.5.3" />
 		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.9" />
 		<PackageReference Include="Microsoft.Extensions.Options" Version="9.0.9" />
 		<PackageReference Include="MongoDB.Driver" Version="3.5.0" />
