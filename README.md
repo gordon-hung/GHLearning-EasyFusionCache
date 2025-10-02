@@ -6,7 +6,7 @@
 
 [![codecov](https://codecov.io/github/gordon-hung/GHLearning-EasyFusionCache/graph/badge.svg?token=D12HRpI8Yu)](https://codecov.io/github/gordon-hung/GHLearning-EasyFusionCache)
 
-EasyFusionCache 是一個示範專案，展示如何在 **.NET 8.0** 中整合 [FusionCache](https://github.com/ZiggyCreatures/FusionCache)，用來提升資料存取效能並強化系統穩定性。
+EasyFusionCache 是一個示範專案，展示如何在 **.NET 9.0** 中整合 [FusionCache](https://github.com/ZiggyCreatures/FusionCache)，用來提升資料存取效能並強化系統穩定性。
 
 ## 特色
 
